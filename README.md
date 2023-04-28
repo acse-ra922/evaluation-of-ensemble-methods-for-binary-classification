@@ -3,13 +3,21 @@
 This project aims to predict whether an asteroid is hazardous or not based on various features of the celestial object. The dataset used for this purpose contains information about 9083 unique asteroids and their characteristics. The features in the dataset are as follows:
 
 **id**: Unique identifier of the asteroid.
+
 **name**: Name of the asteroid.
+
 **est_diameter_min**: Estimated minimum diameter of the asteroid (in kilometers).
+
 **est_diameter_max**: Estimated maximum diameter of the asteroid (in kilometers).
+
 **relative_velocity**: The relative velocity of the asteroid with respect to Earth (in kilometers per hour).
+
 **miss_distance**: The distance at which the asteroid will pass by Earth (in kilometers).
+
 **orbiting_body**: The celestial body that the asteroid is orbiting (in this case, all are orbiting Earth).
+
 **sentry_object**: A boolean value indicating whether the asteroid is on the Sentry Impact Risk Table (True if it is, False otherwise).
+
 **absolute_magnitude**: The absolute magnitude of the asteroid, which is a measure of its intrinsic brightness.
 
 The dataset provides valuable insights into the physical properties and trajectory of each asteroid. By analyzing these features, the project aims to develop a machine learning model that can accurately predict whether an asteroid poses a hazard to Earth. This information can be crucial for space agencies and researchers, enabling them to assess potential threats and develop mitigation strategies to ensure the safety of our planet.
