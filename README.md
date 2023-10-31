@@ -1,6 +1,6 @@
 # Evaluation of Ensemble Methods for Binary Classification
 
-This project aims to predict whether an asteroid is hazardous or not based on various features of the celestial object. The dataset used for this purpose contains information about 9083 unique asteroids and their characteristics. The features in the dataset are as follows:
+This project aims to evaluate ensemble methods on their accuracy and time complexity while making classifying an asteroid as hazardous or not based on various features of the celestial object. The dataset used for this purpose contains information about 9083 unique asteroids and their characteristics. The features in the dataset are as follows:
 
 **id**: Unique identifier of the asteroid.
 
@@ -20,7 +20,7 @@ This project aims to predict whether an asteroid is hazardous or not based on va
 
 **absolute_magnitude**: The absolute magnitude of the asteroid, which is a measure of its intrinsic brightness.
 
-The dataset provides valuable insights into the physical properties and trajectory of each asteroid. By analyzing these features, the project aims to develop a machine learning model that can accurately predict whether an asteroid poses a hazard to Earth. This information can be crucial for space agencies and researchers, enabling them to assess potential threats and develop mitigation strategies to ensure the safety of our planet.
+The dataset provides valuable insights into the physical properties and trajectory of each asteroid. By analyzing these features, the project aims to identify the machine learning model that can most accurately predict whether an asteroid poses a hazard to Earth. This information can be crucial for space agencies and researchers, enabling them to assess potential threats and develop mitigation strategies to ensure the safety of our planet. Additionally, this also helps us draw a comparison between different ensemble methods and their advantages and disadvantages.
 
 
 Repository Structure:
