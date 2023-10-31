@@ -1,5 +1,6 @@
 # Evaluation of Ensemble Methods for Binary Classification
 
+**Project Overview:**
 This project aims to evaluate ensemble methods on their accuracy and time complexity while making classifying an asteroid as hazardous or not based on various features of the celestial object. The dataset used for this purpose contains information about 9083 unique asteroids and their characteristics. The features in the dataset are as follows:
 
 **id**: Unique identifier of the asteroid.
@@ -23,7 +24,7 @@ This project aims to evaluate ensemble methods on their accuracy and time comple
 The dataset provides valuable insights into the physical properties and trajectory of each asteroid. By analyzing these features, the project aims to identify the machine learning model that can most accurately predict whether an asteroid poses a hazard to Earth. This information can be crucial for space agencies and researchers, enabling them to assess potential threats and develop mitigation strategies to ensure the safety of our planet. Additionally, this also helps us draw a comparison between different ensemble methods and their advantages and disadvantages.
 
 
-Repository Structure:
+**Repository Structure**:
 
 1. dataset: Contains the raw training data and unseen data for model evaluation.
 2. data_processing_pipeline: Includes a Jupyter Notebook that outlines the data preprocessing and cleaning steps for the datasets.
@@ -33,3 +34,6 @@ Repository Structure:
 6. evaluation_of_models: Features a Jupyter Notebook that generates predictions on unseen data using all four ensemble models, and performs a time analysis of each prediction method for comparison.
 
 This structured repository provides a comprehensive overview of the process of evaluating various ensemble methods for binary classification tasks, from initial data processing to final model evaluation and comparison.
+
+**Results**:
+It was observed that the XGBoost Classifier has the most optimised prediction process, as it produces the fastest results. Moreover, it should also be noted that the Voting and Stacking Classifiers which are a combination of ensemble methods including XGBoost, are not as fast as the other two ensemble methods, and have varying prediction speeds. This is because the voting and stacking classifiers combines multiple models (e.g., decision tree, random forest, etc.) to make a prediction, while XGBoost uses a gradient boosting algorithm. Additionally, the voting classifier and stacking classifier combine multiple models, and the more models that are combined, the longer they may take to make a prediction. Moreover, the best accuracy score was recorded by Voting Classifier, followed by Stacking Classifier. This can be attributed to the fact that they are more complex than the XGBoost and Random Forest Classifiers.
